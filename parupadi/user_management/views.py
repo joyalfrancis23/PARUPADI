@@ -8,3 +8,5 @@ def login_pages(request):
 def register(request):
     return render(request,'registration.html')
 
+def sampleLoginPage(request):
+    return render(request,'sample_loginPage.html')

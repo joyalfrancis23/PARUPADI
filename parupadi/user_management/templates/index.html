@@ -1,4 +1,4 @@
-
+{% load socialaccount %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -45,7 +45,7 @@
 						Facebook
 					</a>
 
-					<a href="#" class="btn-google m-b-20">
+					<a href="{% provider_login_url "google"%}" class="btn-google m-b-20" >
 
 						<img src="{% static 'images/icons/icon-google.png' %}" alt="GOOGLE">
 						Google
