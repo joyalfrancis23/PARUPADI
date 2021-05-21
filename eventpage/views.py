@@ -6,4 +6,4 @@ from .models import Eventpage
 def home(request):
     eventpage = Eventpage.objects.all()
     return render(request,'home.html',{'eventpage':eventpage})
-  # return HttpResponse("<h1>event page</h1>")
+  #return HttpResponse("<h1>event page</h1>")
