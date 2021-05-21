@@ -1,0 +1,28 @@
+{% extends 'theme.html' %}
+
+{% block content%}
+
+<h2>EVENT PAGE</h2>
+<div class="container-fluid">
+    <div class="row">
+{% for Eventpage in eventpage %}
+    <div class="col-sm-3">
+<div class="card" style="width: 10rem,"Oswald""" ;>
+  <img src="{{Eventpage.image}}" class="card-img-top" alt="Cinque Terre">
+  <div class="card-body">
+    <h5 class="card-title">{{Eventpage.Event_name}}</h5>
+    <p class="card-text">{{Eventpage.Event_location}}</p>
+    <p class="card-text">{{Eventpage.Date_Time}}</p>
+    <p class="card-text">{{Eventpage.max_participants}}</p>
+    <p class="card-text">{{Eventpage.Event_Description}}</p>
+    <a href="#" class="btn btn-primary">Register for the Event </a>
+     </div>
+   </div>
+  </div>
+{% endfor %}
+    </div>
+</div>   
+
+
+
+{% endblock %}
