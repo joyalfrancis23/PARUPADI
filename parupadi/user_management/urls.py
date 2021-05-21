@@ -5,5 +5,5 @@ from . import views
 urlpatterns = [
     path('',views.login_pages),
     path('register/',views.register),
-    path('prelogin/',views.sampleLoginPage),
+    path('register/prelogin',views.prelogin),
 ]
