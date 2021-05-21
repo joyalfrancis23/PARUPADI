@@ -47,9 +47,14 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+<<<<<<< HEAD
 
     'user_management',
     'eventpage',
+=======
+    'eventpage.apps.EventpageConfig',
+    'user_management.apps.UserManagementConfig',
+>>>>>>> 09168b7eebb462e033cd66e9be8104a1d2148485
     #for allauth
     'django.contrib.sites',
     'allauth',
