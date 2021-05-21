@@ -2,16 +2,16 @@
 
 {% block content%}
 
-<h2>eventpage</h2>
+<h2>EVENT PAGE</h2>
 <div class="container">
     <div class="row">
 {% for eventpage in eventpage %}
     <div class="col-md-3">
 <div class="card" style="width: 18rem;">
-  <img src="eventpage.image" class="card-img-top" alt="...">
+  <img src="Eventpage.image" class="card-img-top" alt="...">
   <div class="card-body">
     <h5 class="card-title">{{eventpage.nam}}</h5>
-    <p class="card-text">${{eventpage.name}}</p>
+    <p class="card-text">{{eventpage.name}}</p>
     <a href="#" class="btn btn-primary">Go somewhere</a>
   </div>
 </div>
