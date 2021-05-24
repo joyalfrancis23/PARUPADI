@@ -1,1 +1,22 @@
-<h1>SUCCESS</h1>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Create an event</title>
+  </head>
+  <body>
+    <h1>
+        Enter the details
+    </h1>
+    <form actions="" method="POST">
+        {% csrf_token %}
+        <br>
+        <input type="text" name = "name" placeholder = "Enter Your Name"><br>
+        <input type="charset" name = "branch" placeholder = "Enter Your Branch"><br>
+        <input type="integer" name = "semester" placeholder = "Enter Your Current Semester"><br>
+        <input type="integer" name = "phone" placeholder = "Enter Your Phone Number"><br>
+        <input type="email" name = "email" placeholder = "Enter Your Email Address"><br>
+        <input type="submit" onclick="window.location.href = 'http://127.0.0.1:8000/eventpage/' value="submit">
+    </form>
+  </body>
+</html>
