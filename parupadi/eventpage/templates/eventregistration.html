@@ -1,1 +1,24 @@
-<h1>Make your own events here!!!</h1>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Create an event</title>
+  </head>
+  <body>
+    <h1>
+        Enter the details
+    </h1>
+    <form actions="" method="POST">
+        {% csrf_token %}
+        <br>
+        <input type="text" name = "eventname" placeholder = "Enter Your Event Name"><br>
+        <input type="date" name = "eventdate" placeholder = "Enter Date"><br>
+        <input type="time" name = "eventtime" placeholder = "Enter Event Time"><br>
+        <input type="text" name = "eventlocation" placeholder = "Enter Event Location"><br>
+        <input type="text" name = "eventdescription" placeholder = "Enter Event Description"><br>
+        <input type="integer" name = "maxparticipants" placeholder = "Maximum number of participants"><br>
+        <input type="url" name = "imageurl" placeholder = "Paste Image URL"><br>
+        <input type="submit" onclick="window.location.href = '/eventpage/' value="submit">
+    </form>
+  </body>
+</html>
