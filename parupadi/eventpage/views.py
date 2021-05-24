@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from .models import Eventpage
+from .models import Eventpage,Participants
 from datetime import datetime
 
 # Create your views here.
@@ -8,6 +8,21 @@ def home(request):
     return render(request,'home.html',{'eventpage':eventpage})
 
 def registersuccess(request):
+    if request.method == 'POST':
+        name = request.POST.get('name')
+        branch = request.POST.get('branch')
+        sem = request.POST.get('semester')
+        phone = request.POST.get('phone')
+        email = request.POST.get('email')
+
+        obj = Participants()
+        obj.Name = name
+        obj.Branch = branch
+        obj.Semester = sem
+        obj.Phone = phone
+        obj.Email = email
+        obj.save()
+        
     return render(request,'registersuccess.html')
 
 def eventregistration(request):

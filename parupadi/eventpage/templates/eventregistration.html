@@ -6,7 +6,7 @@
   </head>
   <body>
     <h1>
-        Enter the details
+        Enter your details
     </h1>
     <form actions="" method="POST">
         {% csrf_token %}
@@ -18,7 +18,7 @@
         <input type="text" name = "eventdescription" placeholder = "Enter Event Description"><br>
         <input type="integer" name = "maxparticipants" placeholder = "Maximum number of participants"><br>
         <input type="url" name = "imageurl" placeholder = "Paste Image URL"><br>
-        <input type="submit" onclick="window.location.href = '/eventpage/' value="submit">
+        <input type="submit" onclick="window.location.href = 'http://127.0.0.1:8000/eventpage/' value="submit">
     </form>
   </body>
 </html>
