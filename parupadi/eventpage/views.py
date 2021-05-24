@@ -5,3 +5,6 @@ from .models import Eventpage
 def home(request):
     eventpage = Eventpage.objects.all()
     return render(request,'home.html',{'eventpage':eventpage})
+
+def registersuccess(request):
+    return render(request,'registersuccess.html')
