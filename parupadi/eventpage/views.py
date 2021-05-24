@@ -22,7 +22,7 @@ def registersuccess(request):
         obj.Phone = phone
         obj.Email = email
         obj.save()
-        
+
     return render(request,'registersuccess.html')
 
 def eventregistration(request):
