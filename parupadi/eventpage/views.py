@@ -8,3 +8,6 @@ def home(request):
 
 def registersuccess(request):
     return render(request,'registersuccess.html')
+
+def eventregistration(request):
+    return render(request,'eventregistration.html');
