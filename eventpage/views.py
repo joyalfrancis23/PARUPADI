@@ -10,6 +10,7 @@ def home(request):
 def registersuccess(request):
     if request.method == 'POST':
         name = request.POST.get('name')
+        event_name = request.POST.get('eventtitle')
         branch = request.POST.get('branch')
         sem = request.POST.get('semester')
         phone = request.POST.get('phone')
@@ -17,6 +18,7 @@ def registersuccess(request):
 
         obj = Participants()
         obj.Name = name
+        obj.Title = event_name
         obj.Branch = branch
         obj.Semester = sem
         obj.Phone = phone
