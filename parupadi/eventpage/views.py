@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import redirect, render
 from .models import Eventpage,Participants
 from datetime import datetime
 
@@ -22,7 +22,10 @@ def registersuccess(request):
         obj.Phone = phone
         obj.Email = email
         obj.save()
+
         
+        return redirect('/eventpage/')
+
     return render(request,'registersuccess.html')
 
 def eventregistration(request):
@@ -44,5 +47,7 @@ def eventregistration(request):
         obj.max_participants = max_participants
         obj.image = image_url
         obj.save()
+        
+        return redirect('/eventpage/')
 
     return render(request,'eventregistration.html')
