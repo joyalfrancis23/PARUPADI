@@ -1,1 +1,1 @@
-web: gunicon parupadi.wsgi:application --log-file -r
+web: gunicon parupadi.wsgi.application --log-file -
