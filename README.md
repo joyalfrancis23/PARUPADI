@@ -20,14 +20,14 @@ Python - 3.9.5,
 django - 3.2.3,
 allauth
 ## How to configure
-step 1: git clone repositary
-step 2: install python
-step 3: Install django(pip install django)
-step 4: Install django allauth(pip install django allauth)
-step 5: runserver(python manage.py runserver)
+1. step 1: git clone repositary
+2. step 2: install python
+3. step 3: Install django(pip install django)
+4. step 4: Install django allauth(pip install django allauth)
+5. step 5: runserver(python manage.py runserver)
 
 ## How to Run
-step 1: Firstly install python
-step 2: Install django(pip install django)
-step 3: Install django allauth(pip install django allauth)
-step 4: runserver(python manage.py runserver)
+1. step 1: Firstly install python
+2. step 2: Install django(pip install django)
+3. step 3: Install django allauth(pip install django allauth)
+4. step 4: runserver(python manage.py runserver)
