@@ -4,7 +4,7 @@ class EventpageAdmin(admin.ModelAdmin):
     list_display = ('Event_name','Date','Time','Event_location','max_participants')
   
 class ParticipantsAdmin(admin.ModelAdmin):
-    list_display = ('Name', 'Branch', 'Semester', 'Phone', 'Email')
+    list_display = ('Name', 'Title','Branch', 'Semester', 'Phone', 'Email')
 
 
 # Register your models here.
