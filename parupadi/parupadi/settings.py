@@ -28,6 +28,7 @@ DEBUG = False
 
 ALLOWED_HOSTS = ['127.0.0.1', 'parupadi.herokuapp.com']
 
+
 AUTHENTICATION_BACKENDS = [
     
     # Needed to login by username in Django admin, regardless of `allauth`
