@@ -14,7 +14,6 @@ class Eventpage(models.Model):
 
 class Participants(models.Model):
     Name = models.CharField(max_length=255)
-    Title = models.CharField(max_length=255)
     Branch = models.CharField(max_length=255)
     Semester = models.IntegerField()
     Phone = models.IntegerField()
