@@ -1,1 +1,1 @@
-web: gunicorn CCMS.wsgi --log-file - 
+web: gunicorn parupadi.wsgi --log-file -
