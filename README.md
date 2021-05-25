@@ -1,35 +1,31 @@
-Event Portal for college
+![BFH Banner](https://trello-attachments.s3.amazonaws.com/542e9c6316504d5797afbfb9/542e9c6316504d5797afbfc1/39dee8d993841943b5723510ce663233/Frame_19.png)
+# Project Name
+PARUPADI
+## Team members
+1. JOYAL FRANCIS TJ[https://github.com/joyalfrancis23]
+2. SANGEETH SUBHASH[https://github.com/Sangeeth21]
+3. ANN MARY VINCENT[https://github.com/007annmol]
+## Team Id
+BFH/reczbb1B6gDTaIYJx/2021
+## Link to product walkthrough
+https://www.loom.com/share/1350e5ee193245bebcd8240787fcbbc2
+## How it Works
+1. first comes the login
+2. login using google auth
+3. choose a google account
+4. it redirects to the eventpage
+5. on eventpage ,we can create an event and register for an event
+## Libraries used
+Python- Version
+## How to configure
+step 1: git clone repositary
+step 2: install python
+step 3: Install django(pip install django)
+step 4: Install django allauth(pip install django allauth)
+step 5: runserver(python manage.py runserver)
 
-For my school club, This is a portal where students can create a unique account and register for events. 
-They will be able to see their past attendance and upcoming events. 
-
-Elements
-
-- User management
-- Event creation with criteria like max participant
-- Application for events
-- Showing attendance data user level and event level
-- RSVP module to confirm attendance for the creator of event
-- Show upcoming events
-
-Possible users journey 
-
-- Students should be able to create a unique account.
-- Students should be able to create an event with fields like (not limited to )
-    - Event title
-    - Event date and time
-    - Event location
-    - Max number of participants
-    - Event description
-    - Event banner
-- In the home page, there should be upcoming events to optin for
-- Home page should notify the student about upcoming event she opted for
-- User profile page with all the event attended
-- Clicking on a event should show attendees
-
-
-MVP(Minimum viable product)
-
-- Able to create a user account
-- Able to create an event
-- Able to register for an event
+## How to Run
+step 1: Firstly install python
+step 2: Install django(pip install django)
+step 3: Install django allauth(pip install django allauth)
+step 4: runserver(python manage.py runserver)
