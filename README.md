@@ -17,7 +17,7 @@ https://www.loom.com/share/1350e5ee193245bebcd8240787fcbbc2
 5. on eventpage ,we can create an event and register for an event
 ## Libraries used
 Python - 3.9.5,
-django - 3.2.3
+django - 3.2.3,
 allauth
 ## How to configure
 step 1: git clone repositary
